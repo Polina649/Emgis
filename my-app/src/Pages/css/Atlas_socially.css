@@ -1,0 +1,795 @@
+.atlas_eco_styles .flex_left_columns{
+    display: flex;
+    width: 300px;
+    margin-right: 40px;
+}
+.atlas_eco_styles .flex_right_columns{
+    display: flex;
+    width: 300px;
+    margin-left: 40px;
+    
+}
+.atlas_eco_styles .flex_text_vtor_2{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.atlas_eco_styles .li_text{
+    padding-right: 50px;
+    border-radius: 20px;
+    padding: 15px;
+    border: 2px solid #002fa8;    
+    color: #002fa8;
+}
+.atlas_eco_styles .li_text_right{
+    padding-left: 50px;
+    border-radius: 20px;
+    padding: 15px;
+    border: 2px solid #002fa8;    
+    color: #002fa8;
+}
+/* Список территорий */
+.atlas_eco_styles .push {
+    list-style: none;
+    font-family: "Lucida Sans";
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 80px;
+    width: 400px;
+    font-size: 20px;
+  }
+
+  .atlas_eco_styles  .push li {
+    position: relative;
+    padding: 20px 0 20px 40px;
+    color: #002fa8;
+    font-variant: small-caps;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .atlas_eco_styles .push li:before {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #4F5151;
+    content: "";
+    left: 0;
+    transition: .3s ease-in-out;
+    top: 27px;
+  }
+  .atlas_eco_styles   .push li:after {
+    position: absolute;
+    border-left: 1px dotted #4F5151;
+    width: 1px;
+    bottom: -12px;
+    content: "";
+    left: 3px;
+    top: 48px;
+  }
+  .atlas_eco_styles .push li:hover:before{box-shadow: 0 0 0 10px rgba(0,0,0,.2)}
+  .atlas_eco_styles  .push li:last-child:after {content: none;}
+  /* Styles_Atlas */
+  .atlas_eco_styles body{
+    margin: 0;
+}
+
+
+
+  @media only screen and (max-width: 1761px) {
+    .atlas_eco_styles .header {
+      width: 100%;
+      z-index: 999;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      position: fixed;
+      background: #fff;
+      height: 81px;
+      margin-bottom: 100px;
+      justify-content: center;
+
+
+    }
+    }
+     
+    
+    @media only screen and (min-width: 1762px) {
+      .atlas_eco_styles .header {
+        display: flex;
+        background-color: white;
+        margin-bottom: 111px;
+        height: 141px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        min-width: 100%;
+        margin: 0;
+        position: fixed;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around
+      }
+    }
+    
+
+
+
+    @media screen and (min-width: 931px){
+      .atlas_eco_styles .header {
+        flex: 0;
+        width: 60%;
+        z-index: 999;
+        display: flex;
+        height: 81px;
+        align-items: center;
+        background-color: white;
+        min-width: 100%;
+        position: fixed;
+      }
+    }
+    @media screen and (max-width: 931px){
+      .atlas_eco_styles .header {
+        flex: 0;
+        width: 60%;
+        z-index: 999;
+        display: flex;
+        height: 131px;
+        align-items: center;
+        background-color: white;
+        min-width: 100%;
+        position: fixed;
+        flex-direction: column;
+      }
+    }
+    
+
+
+
+
+  .atlas_eco_styles .logo {
+    display: flex;
+    padding-left: 34px;
+    flex-direction: column;
+    align-items: center; /* Добавлено центрирование содержимого по вертикали */
+    cursor: pointer;
+  }
+  .atlas_eco_styles  .logo img {
+    width: 25px;
+    height: 32px;
+    margin-right: 2px;
+    cursor: pointer;
+  }
+  .atlas_eco_styles .logo p {
+    font-size: 15px;
+    color: #002FA8;
+    text-align: center;
+    line-height: 15.52px;
+    margin: 0;
+    cursor: pointer;
+  }
+  .atlas_eco_styles .buttons {
+    display: flex;
+  }
+  .atlas_eco_styles .buttons button {
+    display: flex;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+    padding: 5px 10px;
+    width: 200px;
+    height: 80px;
+    border-radius: 14px;
+    font-size: 10px;
+    text-align: left;
+    background: #fff;
+  }
+  .atlas_eco_styles .buttons button:hover{
+  background: linear-gradient(180deg, #c0ecff 0%, #c0ecff 100%);
+}
+.atlas_eco_styles .buttons button img {
+    width: 38px;
+    height: 43px;
+    margin-right: 5px;
+  }
+  
+  .atlas_eco_styles  .buttons button span {
+    padding-left: 3px;
+  }
+  
+  .atlas_eco_styles .logo_text {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 37.45px;
+    align-items: center;
+    background: linear-gradient(180deg, #0166b3 21.62%, rgba(0, 0, 0, 0.85) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    cursor: pointer;
+  }
+  
+  .atlas_eco_styles .main-content {
+    width: 100%;
+    height: 80%;
+    overflow-y: auto;
+  }
+  
+  /* .atlas_eco_styles .header {
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+  } */
+  
+  
+  /* Стили для фона начального экрана */
+  .atlas_eco_styles .home-background {
+    background: rgba(211, 242, 255, 1);
+  }
+  
+  /* Стили для фона страницы экологического атласа */
+  .atlas_eco_styles .ecological-background {
+    background: linear-gradient(180deg, #FFCC00 0%, rgba(192, 236, 255, 0) 100%);
+  }
+  .atlas_eco_styles .button {
+    display: flex;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+    padding: 5px 10px;
+    width: 200px;
+    height: 60px;
+    background: linear-gradient(180deg, #c0ecff 0%, #c0ecff 100%);
+    border-radius: 5px;
+    font-size: 10px;
+    text-align: left;
+  }
+
+  .atlas_eco_styles .button img {
+    width: 38px;
+    height: 43px;
+    margin-right: 5px;
+  }
+  
+  .atlas_eco_styles .button span {
+    padding-left: 3px;
+  }
+  
+  .atlas_eco_styles .active.button {
+    background-color: yellow; /* Изменяем цвет фона кнопки на желтый */
+  }
+  
+  .atlas_eco_styles .red.button {
+    background-color: red; /* Изменяем цвет фона кнопки на красный */
+  }
+  
+  .atlas_eco_styles .greev.button {
+    background-color: green; /* Изменяем цвет фона кнопки на зеленый */
+  }
+  
+  .atlas_eco_styles .nav_menu a span{
+    margin-right: 30px;
+    font-size: 24px;
+    color: rgba(0, 47, 168, 1);
+    width: 156px;
+    height: 56px;
+    border-radius: 14px;
+    text-align: center;
+    display: inline-flex; /* чтобы ссылки имели ширину и высоту */
+    justify-content: center; /* выравниваем содержимое по центру по горизонтали */
+    align-items: center;
+    text-decoration: none; /* чтобы убрать подчеркивание ссылок */
+    line-height: 56px; /* выравнивание текста по вертикали */
+  }
+  .atlas_eco_styles .nav_menu a span:hover{
+    background: rgba(211, 242, 255, 1);
+  }
+  
+  .atlas_eco_styles .nav_menu a {
+    display: inline-flex; /* чтобы ссылки имели ширину и высоту */
+    justify-content: center; /* выравниваем содержимое по центру по горизонтали */
+    align-items: center; /* выравниваем содержимое по центру по вертикали */
+    width: 156px; /* ваша заданная ширина */
+    height: 56px; /* ваша заданная высота */
+    text-decoration: none; /* чтобы убрать подчеркивание ссылок */
+  }
+  .atlas_eco_styles .left_main_content_tema{
+    background: linear-gradient(90deg, rgba(193, 237, 255, 0.238) 0%, rgba(202, 245, 255, 0.360329) 21%, rgba(211, 255, 255, 0) 100%);
+    height: calc(100vh - 100px); /* высота страницы минус высота шапки */
+    width: 20%;
+    motion-rotation: -180deg;
+  }
+  .atlas_eco_styles .flex_main_content {
+    display: flex;
+  }
+  .atlas_eco_styles .center_main_content_tema{
+    background:rgba(211, 242, 255, 1);
+    height: calc(100vh - 100px); /* высота страницы минус высота шапки */
+    width: 60%;
+  }
+  .atlas_eco_styles .right_main_content_tema{
+    background: linear-gradient(90deg, rgba(193, 237, 255, 0.238) 0%, rgba(202, 245, 255, 0.360329) 21%, rgba(211, 255, 255, 0) 100%);
+    height: calc(100vh - 100px); /* высота страницы минус высота шапки */
+    width: 20%;
+  }
+
+/* стиль для saidbar */
+
+.atlas_eco_styles .sidebar {
+    position: fixed;
+    top: 170px; /* 111px высота .header + 20px отступ */
+    bottom: 20px;
+    width: 351px;
+    background-color: #c0ecff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: left 0.3s ease;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+  
+.atlas_eco_styles .sidebar.open {
+    left: 0; /* Показываем sidebar */
+  }
+  
+  
+  .atlas_eco_styles  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .atlas_eco_styles .sidebar-space {
+    position: fixed;
+    top: 131px; /* 111px высота .header + 20px отступ */
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    background-color: #D3F2FF; /* синий цвет */
+    z-index: -1; /* чтобы задний фон был под sidebar */
+    
+  }
+
+  /* Поиск*/
+  .atlas_eco_styles .search-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #c0ecff;
+    margin: 20px;
+    border-radius: 5px;
+  }
+  
+  .atlas_eco_styles .search-icon {
+    margin-right: 10px; /* Отступ между иконкой и полем ввода */
+  }
+  
+  .atlas_eco_styles .search-container input[type="text"] {
+    flex: 1; /* Растягиваем поле ввода, чтобы занимало всю доступную ширину */
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .atlas_eco_styles .app {
+    position: relative;
+    min-height: 100vh; /* устанавливаем минимальную высоту страницы по высоте окна браузера */
+    background: #D3F2FF; /* цвет фона */
+  }
+
+
+/* Основной контент */
+
+/* Атлас */
+.atlas_eco_styles .atlas{
+    width: 820px;
+    margin-top: 100px;
+    border-radius: 20px;
+    border: 2px solid #dcdcdc;
+}
+.atlas_eco_styles .atlas {
+  transition: transform 0.3s ease;
+  border: 2px solid #0166b3;
+}
+.atlas_eco_styles .atlas:active {
+  transform: scale(0.9);
+}
+.atlas_eco_styles .flex_atlas_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.atlas_eco_styles .text_osnov{
+    margin-top: 40px;
+    font-size: 40px;
+    text-align: center;
+    color: #183B56;
+    font-weight: 400;
+    line-height: 48.01px;
+}
+.atlas_eco_styles .decor_text_vtor{
+    text-align: center;
+    color: #002FA8;
+    width: 720px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.atlas_eco_styles  .flex_text_vtor{
+    display: flex;
+    justify-content: center;
+}
+
+/* Кнопочки */
+
+.atlas_eco_styles .flex_main_content{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  }
+  .atlas_eco_styles .button_slois{
+    width: 220px;
+    height: 65px;
+    color: #002FA8;
+    font-size: 20px;
+    border: 1px solid #002FA8;
+    border-radius: 14px;
+    margin-top: 20px;
+    background: #fff;
+  }
+  .atlas_eco_styles .button_slois:hover{
+    background-color: #d3f2ff;
+  } 
+  .atlas_eco_styles  .title_main_two{
+    color: #183B56;
+    font-size: 48px;
+    line-height: 62.11px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .atlas_eco_styles  .button-container_main_2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 420px;
+    margin-right: 420px;
+  }
+
+  .atlas_eco_styles .button_slois_2 {
+    margin-bottom: 10px;
+    color: #002FA8;
+    font-size: 16px;
+    border: 1px solid #002FA8;
+    border-radius: 14px;
+    margin-top: 20px;
+    background: #fff;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: space-evenly;
+    width: 210px;
+    cursor: pointer;
+}
+  .atlas_eco_styles svg{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+
+  .atlas_eco_styles  .button_slois_2:hover{
+    background-color:#d3f2ff;
+  } 
+
+  .atlas_eco_styles  .button_slois_24{
+    background-color: #1c87c9;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    border: none;
+    color: #eeeeee;
+    cursor: pointer;
+    display: inline-block;
+    font-family: sans-serif; 
+    font-size: 20px;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    }
+    /* .atlas_eco_styles .button_slois_2:hover {
+      box-shadow: 8px 10px 5px 2px rgba(0, 0, 255, .2);
+      margin-top: 13px;
+      transition: 0.5s;
+    } */
+    /* @keyframes glowing {
+      0% { background-color: #42AAFF; box-shadow: 0 0 5px #42AAFF; }
+      50% { background-color: #78DBE2; box-shadow: 0 0 20px #78DBE2; }
+      100% { background-color: #42AAFF; box-shadow: 0 0 5px #42AAFF; }
+    }
+    .atlas_eco_styles  .button_slois_24 {
+    animation: glowing 1300ms infinite;
+    } */
+    .atlas_eco_styles .button_slois_24:hover{
+      background: #78DBE2;
+      box-shadow: 0 0 20px #78DBE2;
+    }
+
+    /* Стиль прокрутки */
+.atlas_eco_styles  body::-webkit-scrollbar-track {
+    background-color: darkgrey;
+}
+
+.atlas_eco_styles  body::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.atlas_eco_styles  body::-webkit-scrollbar {
+    width: 15px;
+}
+ 
+.atlas_eco_styles body::-webkit-scrollbar-track {
+  background-color: #ffffff;
+  border: 2px solid #799cb7;
+  border-radius: 5px;
+}
+.atlas_eco_styles body::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px rgb(0 0 0 / 30%);
+  background: #c0ecff;
+  border-radius: 5px;
+}
+.atlas_eco_styles .button_slois_24 a{
+  text-decoration: none;
+  color:#fff;
+  cursor: pointer;
+}
+.atlas_eco_styles button span a{
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 900px) {
+  .atlas_eco_styles .atlas {
+    width: 520px;
+    margin-top: 190px;
+    border-radius: 20px;
+  }
+}
+
+
+/* Стили для слайдера */
+.atlas_eco_styles .slick-prev:before {
+  content: '❮';
+  color: #002fa8;
+  border: 2px solid #002fa8;
+  border-radius: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 3px;
+  /* margin-left: 300px; */
+}
+.atlas_eco_styles .slick-prev:hover:before{
+  background: #D3F2FF;
+}
+
+
+.atlas_eco_styles .slick-next:before {
+  content: '❯';
+  color: #002fa8;
+  border: 2px solid #002fa8;
+  border-radius: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 3px;
+  /* margin-left:400px; */
+}
+
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+  .atlas_eco_styles .slick-prev:before {
+    content: '❮';
+    color: #002fa8;
+    border: 2px solid #002fa8;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    margin-left: -100px;
+    margin-right: -100px;
+}
+
+
+    .atlas_eco_styles .slick-next:before {
+      content: '❯';
+      color: #002fa8;
+      border: 2px solid #002fa8;
+      border-radius: 25px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 3px;
+      /* margin-left: 400px; */
+      margin-right: -200px;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 1021px) {
+
+  .atlas_eco_styles .button_slois_24 {
+       width: 200px;
+  }
+  
+}
+@media screen and (min-width: 427px) and (max-width: 600px)
+{
+  .atlas_eco_styles .atlas {
+    width: 420px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 427px)
+{
+  .atlas_eco_styles .atlas {
+    width: 330px;
+  }
+}
+
+
+.slick-prev:before, .slick-next:before{
+  font-size: 40px;
+}
+.slick-slider .slick-track, .slick-slider .slick-list{
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+
+.atlas_eco_styles .slick-slide {
+  margin-right: 20px; /* Отступ между слайдами */
+}
+
+.atlas_eco_styles .slick-prev,
+.atlas_eco_styles .slick-next {
+  width: 50px; /* Увеличиваем ширину, чтобы добавить отступ */
+  height: 50px; /* Увеличиваем высоту, чтобы добавить отступ */
+  margin-top: 150px; /* Корректируем положение вертикально */
+  z-index: 1; /* Устанавливаем z-index, чтобы стрелки были поверх слайдов */
+  position: absolute;
+}
+
+.atlas_eco_styles .slick-prev {
+  right: 60px;
+  bottom: 120x;
+}
+
+.atlas_eco_styles .slick-next {
+  left: 60px;
+}
+
+
+
+.atlas_eco_styles .slick-prev,
+.atlas_eco_styles .slick-next {
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  position: absolute;
+  bottom: 20px; /* Устанавливаем расстояние от нижнего края */
+  z-index: 1;
+  margin: auto; /* Выравнивание по горизонтали */
+}
+
+.atlas_eco_styles .slick-prev {
+  left: 0;
+  right: 0;; /* Позиция стрелки назад для маленьких экранов */
+    bottom: 5%; /* Позиция стрелки назад для маленьких экранов */
+    margin-top: 140px;
+  }
+
+  .atlas_eco_styles .slick-next {
+    left: 5%; /* Позиция стрелки вперед для маленьких экранов */
+    bottom: 5%; /* Позиция стрелки вперед для маленьких экранов */
+    margin-top: 140px;
+  }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .atlas_eco_styles .slick-prev {
+    right: 8%; /* Позиция стрелки назад для средних экранов */
+    bottom: 8%; /* Позиция стрелки назад для средних экранов */
+    margin-top: 140px;
+  }
+
+  .atlas_eco_styles .slick-next {
+    left: 8%; /* Позиция стрелки вперед для средних экранов */
+    bottom: 8%; /* Позиция стрелки вперед для средних экранов */
+    margin-top: 140px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .atlas_eco_styles .slick-prev {
+    right: 140px; /* Позиция стрелки назад для больших экранов */
+    bottom: 140px; /* Позиция стрелки назад для больших экранов */
+    margin-top: 190px;
+  }
+
+  .atlas_eco_styles .slick-next {
+    left: 140px; /* Позиция стрелки вперед для больших экранов */
+    bottom: 140px; /* Позиция стрелки вперед для больших экранов */
+    margin-top: 190px;
+  }
+}
+
+.atlas_eco_styles .slick-next {
+  right: 0;
+}
+
+.flex_button{
+  display:flex;
+}
+.icons_button{
+  display: flex;
+}
+
+
+.atlas_eco_styles .rotate-icon {
+  transform: rotateY(180deg);
+  transition: transform 1s ease;
+}
+
+.push {
+  list-style: none;
+  font-family: "Lucida Sans";
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 80px;
+  width: 400px;
+  font-size: 20px;
+}
+
+.flex_text_vtor {
+  display: flex;
+  justify-content: center;
+}
+
+.push li {
+  position: relative;
+  padding: 20px 0 20px 40px;
+  color: #002fa8;
+  font-variant: small-caps;
+  font-weight: bold;
+  cursor: pointer;
+}
+.push li:before {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #4F5151;
+  content: "";
+  left: 0;
+  transition: .3s ease-in-out;
+  top: 27px;
+} 
+.push li:after {
+  position: absolute;
+  border-left: 1px dotted #4F5151;
+  width: 1px;
+  bottom: -12px;
+  content: "";
+  left: 3px;
+  top: 48px;
+}

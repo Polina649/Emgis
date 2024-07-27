@@ -1,0 +1,77 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@blueprintjs/core": "^5.7.2",
+    "@blueprintjs/datetime": "^5.2.8",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@pbe/react-yandex-maps": "^1.2.5",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.2",
+    "bootstrap": "^5.3.2",
+    "esri-loader": "^3.7.0",
+    "install": "^0.13.0",
+    "jquery": "^3.7.1",
+    "js-cookie": "^3.0.5",
+    "leaflet": "^1.9.4",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.9.1",
+    "react-calendar-input": "^0.3.15",
+    "react-carousel-minimal": "^1.4.1",
+    "react-datepicker": "^4.25.0",
+    "react-datetime-picker": "^5.6.0",
+    "react-datetime-range-picker": "^3.0.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.12.0",
+    "react-input-calendar": "^0.5.4",
+    "react-leaflet": "^4.2.1",
+    "react-modal": "^3.16.1",
+    "react-router-dom": "^6.21.0",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.8.0",
+    "react-slick": "^0.30.1",
+    "react-slick-carousel": "^0.14.9",
+    "react-table": "^7.8.0",
+    "react-three-fiber": "^6.0.13",
+    "react-tooltip": "^5.27.1",
+    "react-yandex-maps": "^4.6.0",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^6.1.8",
+    "three": "^0.162.0",
+    "use-react-native-navigation": "^0.0.6",
+    "web-vitals": "^2.1.4",
+    "yarn": "^1.22.22"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.0"
+  }
+}

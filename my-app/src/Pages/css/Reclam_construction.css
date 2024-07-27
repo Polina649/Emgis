@@ -1,0 +1,77 @@
+.reclams .home_styles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+  }
+  
+  .reclams  .sidebar {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 320px;
+    background-color: white;
+    border: 1px solid #002fa8;
+    border-radius: 14px;
+    overflow: hidden;
+    transition: width 0.3s;
+    z-index: 10;
+  }
+  
+  .reclams  .sidebar .menu_tops {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .reclams .sidebar .toggle-btn {
+    background-color: #002fa8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+  
+  .reclams .sidebar .content_saidbar_main {
+    padding: 10px;
+  }
+  
+  .reclams .visible-input {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .reclams .transparent-input {
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  .reclams .checkbox-list {
+    max-height: 150px;
+    overflow-y: auto;
+  }
+  
+  .reclams .right-sidebar {
+    background-color: white;
+    border-radius: 14px 0 0 14px;
+    border: 1px solid #002fa8;
+    overflow: hidden;
+  }
+  
+  .reclams .right-sidebar .toggle-btn {
+    background-color: #002fa8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+  
+  .reclams .home_styles .map-container {
+    flex: 1;
+    height: 100%;
+  }

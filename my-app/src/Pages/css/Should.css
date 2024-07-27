@@ -1,0 +1,177 @@
+  .should_styles .custom-select {
+    position: relative;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .should_styles .select-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .should_styles .arrow {
+    transition: transform 0.3s ease;
+  }
+  
+  .should_styles .arrow.down {
+    transform: rotate(180deg);
+  }
+  
+  .should_styles .options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    background-color: #fff;
+    overflow-y: auto;
+    max-height: 150px;
+  }
+  
+  .should_styles .option {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .should_styles .should_styles .option:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .should_styles .custom-select.open .arrow {
+    transform: rotate(180deg);
+  }
+
+
+  .should_styles .list-items .list-item{
+  width: 130px;
+  height: 20px;
+  border: 1px solid #002fa8;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 3px;
+  }
+  /* checkbox */
+/* Стили для кастомизации чекбокса */
+.should_styles .checkbox-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 5px;
+    color: #002fa8;
+  }
+  
+  .should_styles .checkbox-item input[type="checkbox"] {
+    display: none; /* Скрыть настоящий чекбокс */
+  }
+  /* Стили для кастомного внешнего вида чекбокса */
+  .should_styles .checkbox-item .custom-checkbox {
+      width: 30px;
+      height: 20px;
+      border: 2px solid #002fa8;
+      border-radius: 4px;
+      margin-right: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+  }
+  
+  .should_styles .checkbox-item .custom-checkbox.checked {
+    background-color: #c0ecff;
+    border-color: #002fa8;
+  }
+  
+  /* Стили для кастомного внешнего вида галочки */
+  .should_styles .checkbox-item .custom-checkbox.checked::before {
+    content: '\2714'; /* Юникод символ для галочки */
+    color: #002fa8;
+    font-size: 16px;
+  }
+  
+  /* Стили для текста лейбла */
+  .should_styles .checkbox-item label {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .should_styles .title-content svg{
+    color: #002fa8;
+  }
+  /* Сайдбар */
+  
+  
+  .should_styles .sidebar {
+    position: fixed;
+    top: 0;
+    left: -380px; /* Скрываем боковую панель за левым краем экрана */
+    width: 250px;
+    height: 70%;
+    background: #333;
+    transition: left 0.8s ease; /* Добавляем плавный переход при открытии/закрытии */
+  }
+  
+  .should_styles .sidebar.open {
+    left: 0; /* Отображаем боковую панель при открытии */
+  }
+  
+  .should_styles .toggle-btn {
+    margin: 20px;
+    padding: 10px;
+    transform: translate(74px, -12px);
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    color: #002fa8;
+    border: 1px solid #002fa8;
+    border-radius: 12px;
+  }
+  .should_styles .toggle-btn:hover{
+    background-color: #D3F2FF;
+  }
+  .should_styles .menu_tops{
+    display: flex;
+  }
+  
+/* Новый сайдбар */
+  .should_styles label {
+    width: 70%;
+    height: 40px;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-evenly;
+    color: #002fa8;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #002fa8;
+    border-radius: 5px;
+  }
+  .Sheps_dec{
+    width: 235px;
+    display: flex;
+    cursor: pointer;
+    justify-content: flex-end;
+    color: #002fa8;
+    flex-direction: row-reverse;
+    align-items: center;
+
+  }
+  .flex_Sheps_dec{
+    /* display: flex;
+    justify-content: center; */
+  }
+  .flex_Sheps_dec_numbers{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+
+  }

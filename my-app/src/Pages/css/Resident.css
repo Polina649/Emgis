@@ -1,0 +1,194 @@
+.main_styles .nav_menu a span{
+  font-size: 22px;
+  color: rgba(0, 47, 168, 1);
+  width: 156px;
+  height: 56px;
+  border-radius: 14px;
+  text-align: center;
+  display: inline-flex; /* чтобы ссылки имели ширину и высоту */
+  justify-content: center; /* выравниваем содержимое по центру по горизонтали */
+  align-items: center;
+  text-decoration: none; /* чтобы убрать подчеркивание ссылок */
+  line-height: 56px; /* выравнивание текста по вертикали */
+  padding: 0 25px;
+}
+.main_styles .nav_menu a span:hover{
+  background: rgba(211, 242, 255, 1);
+}
+
+.main_styles .nav_menu a span .top_menus{
+  background: rgba(211, 242, 255, 1);
+  margin-right: 30px;
+  font-size: 24px;
+  color: rgba(0, 47, 168, 1);
+  width: 156px;
+  height: 56px;
+  border-radius: 14px;
+  text-align: center;
+  display: inline-flex; /* чтобы ссылки имели ширину и высоту */
+  justify-content: center; /* выравниваем содержимое по центру по горизонтали */
+  align-items: center;
+  text-decoration: none; /* чтобы убрать подчеркивание ссылок */
+  line-height: 56px; /* выравнивание текста по вертикали */
+}
+
+.resident .deco_title_2 {
+  text-align: center;
+  color: #002FA8;
+  /* width: 420px; */
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  /* padding-top: 20px; */
+  flex-direction: column;
+}
+
+
+.resident .modal-content {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.resident .tabs {
+  display: flex;
+  margin-top: 25px;
+  justify-content: flex-start
+}
+
+.resident .tab-button {
+  background-color: transparent;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px 20px;
+  outline: none;
+  transition: background-color 0.3s ease;
+  height: auto;
+
+  border: 1px solid #002fa8;
+    border-radius: 14px 14px 0px 0px;
+}
+
+.resident .tab-button.active {
+  background-color: #D3F2FF;
+  border-radius: 14px 14px 0px 0px;
+}
+
+.resident .tab-content {
+  border: 1px solid #002fa8;
+    max-width: 100%; /* Установите максимальную ширину в зависимости от вашего дизайна */
+    word-wrap: break-word; /* Применяем перенос слов при необходимости */
+    overflow-wrap: break-word; /* Поддержка переноса слов для Firefox */
+  }
+
+.resident .deco_title_2 p{
+    max-width: 72%; /* Установите максимальную ширину в зависимости от вашего дизайна */
+    word-wrap: break-word; /* Применяем перенос слов при необходимости */
+    overflow-wrap: break-word; /* Поддержка переноса слов для Firefox */
+    padding-left: 50px;
+  }
+
+.resident .fade-enter {
+  opacity: 0;
+}
+
+.resident .fade-enter-active {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.resident .fade-exit {
+  opacity: 1;
+}
+
+.resident .fade-exit-active {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.resident td:hover{
+  background: #d3f2ff;
+}
+.resident th:hover{
+  background: #d3f2ff;
+}
+
+.resident .deco_title_2 p {
+  margin-bottom: 10px;
+}
+
+.resident .slick-prev:before {
+  content: '←';
+  color: #002fa8;
+  /* border: 1px solid #000; */
+}
+
+.resident .slick-next:before {
+  content: '→';
+  color: #002fa8;
+}
+
+/* Ваш CSS файл */
+/* .resident .modal {
+  position: relative;
+} */
+.resident .prev-arrow,
+.resident .next-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.5); /* Добавляем прозрачность к фону стрелок */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1000; /* Устанавливаем z-index, чтобы стрелки были поверх текста */
+}
+
+.resident .prev-arrow {
+  left: 0;
+}
+
+.resident .next-arrow {
+  right: 0;
+}
+
+.resident .slider-container {
+  position: relative;
+}
+
+.prev-arrow, .next-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1; /* Устанавливаем z-index, чтобы стрелки были выше текста */
+}
+
+.prev-arrow {
+  left: 10px; /* Отступаем от левого края */
+}
+
+.next-arrow {
+  right: 10px; /* Отступаем от правого края */
+}
+
+.slide-content {
+  padding: 0 20px; /* Добавляем отступы вокруг текста слайда */
+}
+.datepicker{
+  border: 1px solid #002fa8;
+  color: #002fa8;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 15px;
+  height: 30px;
+}
+.resident .main_styles .resident_styles .header .help-links li{
+  background: #fff;
+}
+.resident .main_styles .resident_styles .header .help-links li:hover{
+  background: #002fa8;
+}

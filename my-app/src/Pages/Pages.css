@@ -1,0 +1,72 @@
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Занимать всю высоту экрана */
+}
+
+.header {
+    flex: 0; /* Шапка не растягивается и не занимает место в контенте */
+    /* Добавьте стили для вашей шапки */
+}
+
+.content {
+    flex: 1; /* Контент занимает все доступное пространство */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-container {
+    max-width: 80%; /* Максимальная ширина карты */
+    max-height: 80%; /* Максимальная высота карты */
+}
+  
+  .map-container img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  /* Стили для фона начального экрана */
+.home-background {
+    background: rgba(211, 242, 255, 1);
+  }
+
+  .nonstandardobjects {
+    background: linear-gradient(180deg, #2EAACF 0%, rgba(192, 236, 255, 0) 100%);
+    height: calc(100vh - 100px); /* высота страницы минус высота шапки */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nonstandardobjects img {
+    margin-top: 50px;
+    height: 528px;
+  }
+  .landpost {
+    background: linear-gradient(180deg, #8B6897 15%, rgba(192, 236, 255, 0) 100%);
+    height: calc(100vh - 100px); /* высота страницы минус высота шапки */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .landpost img {
+    margin-top: 50px;
+    height: 528px;
+  }
+  
+  .ecological {
+    background: linear-gradient(180deg, #FFCC00 0%, rgba(192, 236, 255, 0) 100%);
+    height: calc(100vh - 100px); /* высота страницы минус высота шапки */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ecological img {
+    margin-top: 50px;
+    height: 528px;
+  }

@@ -1,0 +1,122 @@
+.eco_saidbar input[type=checkbox] {
+	display:none;
+}
+
+.eco_saidbar  input[type=checkbox] + label {
+	display:inline-block;
+	padding: 4px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	color: #002fa8;
+    border-radius: 6px;
+    font-size: 20px;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	background-color: #fff;
+	background-repeat: repeat-x;
+	border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',endColorstr='#ffe6e6e6',GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+
+
+.eco_saidbar input[type=checkbox]:checked + label{
+	background-image: none;
+	outline: 0;
+	-webkit-box-shadow: inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);
+	-moz-box-shadow: inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);
+	box-shadow: inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);
+	background-color:#D3F2FF;
+    height: auto;
+    width: 150px;
+    border: 1px solid #002fa8;
+}
+
+.eco_saidbar input[type=checkbox] + label{
+    height: auto;
+    width: 150px;
+    border: 1px solid #002fa8;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.eco_saidbar input[type=checkbox] + label:hover{
+    height: auto;
+    width: 150px;
+    border: 1px solid #002fa8;
+    text-align: center;
+    border-radius: 6px;
+	background: #d3f2ff;
+}
+
+.eco_saidbar .icons{
+    border-radius: 12px;
+    width: 46px;
+    height: 46px;
+    margin-right: 10px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eco_saidbar .chackbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	margin: 30px 10px 30px 0;
+}
+
+
+.button-item{
+    /* width: 130px; */
+    font-size: 15px;
+    border: 1px solid #002fa8;
+    color: #002fa8;
+    border-radius: 10px;
+}
+
+
+.button-item:active {
+    -webkit-box-shadow: 17px 10px 25px 6px rgba(104, 175, 204, 0.32);
+    -moz-box-shadow: 17px 10px 25px 6px rgba(104, 175, 204, 0.32);
+    box-shadow: 17px 10px 25px 6px rgba(104, 175, 204, 0.32);
+}
+
+.button-item:first-child{
+    margin-top: "90px";
+}
+
+
+.icons{
+    border: 1px solid #002fa8;
+}
+
+
+.transparent-border {
+    border: 1px solid transparent;
+  }
+  
+  .opaque-border {
+    border: 1px solid #000; /* Замените #000 на цвет вашей рамки */
+  }
+
+
+/* Анимация */
+.sidebar {
+    /* Добавьте стили для скрытия боковой панели по умолчанию */
+    transform: translateX(-100%);
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .sidebar.open {
+    /* Добавьте стили для отображения боковой панели */
+    transform: translateX(0);
+  }
+  
+  .menu_tops.open {
+    /* Добавьте стили для отображения списка кнопок */
+    opacity: 1;
+    transform: translateX(0);
+  }

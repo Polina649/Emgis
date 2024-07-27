@@ -1,0 +1,771 @@
+.invest_styles body{
+    margin: 0;
+  }
+  .invest_styles .header {
+    display: flex;
+    height: 81px;
+    align-items: center;
+    background-color: white;
+    min-width: 100%;
+    position: fixed;
+    justify-content: center
+  }
+  .invest_styles .header_menuserf {
+    display: flex;
+    height: 81px;
+    align-items: center;
+    background-color: white;
+    min-width: 60%;
+    position: fixed;
+    justify-content: space-between
+  }
+    @media screen and (min-width: 300px) and (max-width: 1010px) {
+      .invest_styles .title_main {
+        margin-top: 250px; /* Исправлено значение отступа */
+      }
+    }
+
+    @medium 
+
+
+    @media screen and (min-width: 931px){
+      .invest_styles .header_menuserf {
+        flex: 0;
+        width: 60%;
+        z-index: 999;
+        display: flex;
+        height: 81px;
+        align-items: center;
+        background-color: white;
+        min-width: 100%;
+        position: fixed;
+      }
+    }
+    @media screen and (max-width: 931px){
+      .invest_styles .header_menuserf {
+        flex: 0;
+        width: 60%;
+        z-index: 999;
+        display: flex;
+        height: 131px;
+        align-items: center;
+        background-color: white;
+        min-width: 100%;
+        position: fixed;
+        flex-direction: column;
+      }
+    }
+
+    .invest_styles .logo {
+      display: flex;
+      padding-left: 34px;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .invest_styles .logo img {
+      width: 25px;
+      height: 32px;
+      margin-right: 2px;
+    }
+
+    .invest_styles  .logo p {
+      font-size: 15px;
+      color: #002FA8;
+      text-align: center;
+      line-height: 15.52px;
+      margin: 0;
+    }
+    
+    .invest_styles .buttons {
+      display: flex;
+    }
+    .invest_styles .buttons button {
+      display: flex;
+      align-items: center;
+      border: none;
+      cursor: pointer;
+      margin-left: 20px;
+      padding: 5px 10px;
+      width: 200px;
+      height: 60px;
+      background: linear-gradient(180deg, #c0ecff 0%, #c0ecff 100%);
+      border-radius: 5px;
+      font-size: 10px;
+      text-align: left;
+    }
+    
+    .invest_styles  .buttons button img {
+      width: 38px;
+      height: 43px;
+      margin-right: 5px;
+    }
+    
+    .invest_styles .buttons button span {
+      padding-left: 3px;
+    }
+    .invest_styles .logo_text {
+      font-weight: 600;
+      font-size: 44px;
+      line-height: 37.45px;
+      align-items: center;
+      background: linear-gradient(180deg, #0166b3 21.62%, rgba(0, 0, 0, 0.85) 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    
+    .invest_styles .main-content {
+      width: 100%;
+      height: 60%;
+      overflow-y: auto;
+    }
+    
+    .invest_styles .header {
+      width: 100%;
+      z-index: 999;
+    }
+
+    /* Стили для фона начального экрана */
+    .invest_styles .home-background {
+      background: rgba(211, 242, 255, 1);
+    }
+  
+    
+    /* Стили для фона страницы экологического атласа */
+    .invest_styles  .ecological-background {
+      background: linear-gradient(180deg, #FFCC00 0%, rgba(192, 236, 255, 0) 100%);
+    }
+    .invest_styles .button {
+      display: flex;
+      align-items: center;
+      border: none;
+      cursor: pointer;
+      margin-left: 20px;
+      padding: 5px 10px;
+      width: 200px;
+      height: 60px;
+      background: linear-gradient(180deg, #c0ecff 0%, #c0ecff 100%);
+      border-radius: 5px;
+      font-size: 10px;
+      text-align: left;
+    }
+    
+    .invest_styles .button img {
+      width: 38px;
+      height: 43px;
+      margin-right: 5px;
+    }
+    
+    .invest_styles .button span {
+      padding-left: 3px;
+    }
+    .invest_styles .nav_menu a span{
+        font-size: 22px;
+        color: rgba(0, 47, 168, 1);
+        width: 156px;
+        height: 56px;
+        border-radius: 14px;
+        text-align: center;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        line-height: 56px;
+        margin-right: 370px;
+        padding: 0 25px;
+    }
+    .invest_styles .nav_menu a span:hover{
+      background: rgba(211, 242, 255, 1);
+    }
+    .invest_styles .nav_menu a {
+      display: inline-flex; /* чтобы ссылки имели ширину и высоту */
+      justify-content: center; /* выравниваем содержимое по центру по горизонтали */
+      align-items: center; /* выравниваем содержимое по центру по вертикали */
+      width: 156px; /* ваша заданная ширина */
+      height: 56px; /* ваша заданная высота */
+      text-decoration: none; /* чтобы убрать подчеркивание ссылок */
+    }
+  
+    .invest_styles .left_main_content_tema{
+      height: calc(100vh - 100px); /* высота страницы минус высота шапки */
+      width: 20%;
+      motion-rotation: -180deg;
+    }
+    .invest_styles .flex_main_content {
+      display: flex;
+    }
+    .invest_styles .center_main_content_tema{
+      height: calc(100vh - 100px); /* высота страницы минус высота шапки */
+      width: 60%;
+    }
+    .invest_styles .right_main_content_tema{
+      height: calc(100vh - 100px); /* высота страницы минус высота шапки */
+      width: 20%;
+    }
+    .invest_styles .container_main_2{
+      display: flex;
+    }
+
+    @media screen and (min-width: 1010px) and (max-width: 2603px) {
+    .invest_styles .title_main{
+      margin-top: 200px;
+      font-size: 40px;
+      font-weight: 400;
+      line-height: 48.01px;
+      color:rgba(24, 59, 86, 1);
+      padding-bottom: 100px;
+      text-align: left;
+    }
+  }
+
+    .invest_styles .deco_title{
+      text-align: center;
+      color: #002FA8;
+      width: 420px;
+      display: flex;
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+      padding-top: 20px;
+    }
+    .invest_styles .flex_main_content{
+      display: flex;
+      justify-content: center;
+    }
+    .invest_styles .button_slois{
+      width: 220px;
+      height: 65px;
+      color: #002FA8;
+      font-size: 20px;
+      border: 1px solid #002FA8;
+      border-radius: 14px;
+      margin-top: 20px;
+      background: #fff;
+    }
+    .invest_styles .title_main_two{
+      color:rgba(24, 59, 86, 1);
+      font-size: 40px;
+      font-weight: 400;
+      line-height: 48.01px;
+      text-align: center;
+      margin-top: 40px;
+    }
+  
+  
+    .invest_styles .button-container_main_2 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+  
+    .invest_styles .button_slois_2 {
+      width: 200px;
+      margin-bottom: 10px;
+      color: #002FA8;
+      font-size: 20px;
+      margin-top: 8px;
+      background: #fff;
+      text-align: center;
+      border: none;
+    }
+  
+   
+    .invest_styles .button_slois_2:hover {
+    } 
+    @media(max-width: 600px) {
+        .invest_styles .button_slois_2 {
+        width: calc(50% - 10px);
+      }
+    }
+  
+    .invest_styles .button-container_main_3{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 60px;
+    }
+    .invest_styles .flex_main_content_two_23{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .invest_styles .pod_footer_text{
+      color: #002FA8C2;
+      font-size: 20px;
+      line-height: 24.9px;
+      font-weight: 400;
+      text-align: center;
+      font-family: "Microsoft Sans Serif", sans-serif;
+    }
+    .invest_styles .pod_footer_text_2{
+      text-decoration: underline;
+      color: #002FA8C2;
+      font-size: 20px;
+      line-height: 24.9px;
+      font-weight: 400;
+      text-align: center;
+      font-family: "Microsoft Sans Serif", sans-serif;
+      margin-top: 20px;
+    }
+    .invest_styles .button_slois_24{
+      background-color: #1c87c9;
+      -webkit-border-radius: 60px;
+      border-radius: 60px;
+      border: none;
+      color: #eeeeee;
+      cursor: pointer;
+      display: inline-block;
+      font-family: sans-serif; 
+      font-size: 20px;
+      padding: 10px 10px;
+      text-align: center;
+      text-decoration: none;
+      }
+      @media(max-width: 600px) {
+        .invest_styles .title_main{
+        margin-top: 230px;
+        }
+      }
+      @keyframes glowing {
+      0% { background-color: #42AAFF; box-shadow: 0 0 5px #42AAFF; }
+      50% { background-color: #78DBE2; box-shadow: 0 0 20px #78DBE2; }
+      100% { background-color: #42AAFF; box-shadow: 0 0 5px #42AAFF; }
+      }
+      /* .main_styles  .button_slois_24:hover {
+      animation: glowing 1300ms infinite;
+      } */
+      .invest_styles .button_slois_24:hover{
+        background: #78DBE2;
+        box-shadow: 0 0 20px #78DBE2;
+      }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+         /* Модальное окно */
+/* Main.css */
+.invest_styles .modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.3s ease-out;
+    z-index: 9999; /* установите высокий z-index для модального окна */
+}
+
+.invest_styles .modal {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    animation: slideIn 0.3s ease-out;
+    width: 430px;
+    z-index: 10000; /* установите еще более высокий z-index для модального окна */
+}
+  .invest_styles .modal-content {
+    /* Добавьте другие стили */
+    height: 380px; /* Установите высоту по вашему усмотрению */
+    overflow-y: auto; /* Добавьте вертикальную прокрутку, если содержимое окна будет больше высоты */
+  }
+  .invest_styles .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  .invest_styles .modal-content {
+    /* Стилизуйте содержимое модального окна здесь */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(-50px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  .invest_styles .text_modal{
+    font-size: 17px;
+    text-align: center;
+    color: #002FA8;
+  }
+  .invest_styles .title_text_maodal{
+    padding-top: 30px;
+    font-size: 23px;
+    text-align: center;
+    font-weight: 600;
+    color: rgba(24, 59, 86, 1);
+  }
+  .invest_styles .form_modal{
+    width: 377px;
+    background: rgba(211, 242, 255, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    border: 1px solid #002fa8;
+    border-radius: 14px;
+  }
+  .invest_styles .flex_maodal_login{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 20px;
+  }
+  .invest_styles .flex_modal{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .invest_styles .input_avtorization:first-child{
+    margin-left: 40px;
+    border: 2px solid #002fa8
+  }
+  .invest_styles .input_avtorization{
+    width: 200px;
+    height: 29px;
+    font-size: 23px;
+    margin-left: 20px;
+    border-radius: 8px;
+    background: #fff;
+    border: 1px solid #002fa8
+  }
+  .invest_styles .input_avtorization:hover{
+    background: #D3F2FF;
+    border: 2px solid #002fa8
+  }
+  
+  .invest_styles .input_avtorization_first{
+    width: 200px;
+    height: 29px;
+    /* background: #D3F2FF; */
+    background: #fff;
+    font-size: 23px;
+    margin-left: 32px;
+    border-radius: 8px;
+    border: 1px solid #002fa8
+  
+  }
+  .invest_styles .input_avtorization_first:hover{
+    background: #D3F2FF;
+    border: 2px solid #002fa8
+  }
+  
+  .invest_styles .input_avtorization:focus{
+    background: #D3F2FF;
+    border: 2px solid #002fa8
+  }
+  
+  .invest_styles .input_avtorization_first:focus{
+    background: #D3F2FF;
+    border: 2px solid #002fa8
+  }
+  
+  .invest_styles .input_avtorization:active{
+    background: #D3F2FF;
+    border: 2px solid #002fa8
+  }
+  
+  .invest_styles .input_avtorization_first:active{
+    background: #D3F2FF;
+    border: 2px solid #002fa8
+  }
+  
+  
+  
+  .invest_styles .label_avtorization{
+    font-size: 28px;
+    color:#002fa8;
+  }
+  .invest_styles .form-group{
+    display: flex;
+      justify-content: center;
+      margin-left: 80px;
+      margin-top: 15px;
+      margin-bottom: 20px
+  }
+  .invest_styles .flex_button_searsh{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .invest_styles .flex_button_searsh .button_model{
+    width: 97px;
+    height: 36px;
+    background: #fff;
+    border: 1px solid #002fa8;
+    color:#002fa8;
+    border-radius: 14px;
+    font-size: 14px;
+  }
+  
+  .invest_styles .flex_button_searsh .button_model:hover{
+     background: #D3F2FF
+  }
+  .invest_styles .gradient-line {
+    height: 320px;
+    background: -webkit-linear-gradient(128deg, #679bad,#d3f2ff,#679bad);
+    display: flex;
+    align-items: flex-end;    
+    justify-content: center; 
+    background: -webkit-linear-gradient(128deg, #679bad,#d3f2ff,#679bad);/* Chrome 10-25, Safari 5.1-6 */                          
+    background: linear-gradient(128deg, #679bad,#d3f2ff,#679bad);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+  }
+  
+  
+  
+  
+  .invest_styles .search-input {
+    width: 100%; /* Ширина поля ввода равна 100% ширины родительского контейнера */
+    padding: 10px; /* Отступы внутри поля ввода */
+    border: none; /* Убираем границы */
+    border-radius: 5px; /* Закругляем углы */
+    background-color: #f2f2f2; /* Цвет фона */
+    font-size: 16px; /* Размер шрифта */
+    margin-bottom: 20px; /* Отступ снизу */
+    margin-bottom: 60px;
+  }
+  
+  .invest_styles .search-input::placeholder {
+    color: #999; /* Цвет плейсхолдера */
+  }
+  
+  .invest_styles .search-input:focus {
+    outline: none; /* Убираем обводку при фокусе */
+    background-color: #fff; /* Изменяем цвет фона при фокусе */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Добавляем тень */
+  }
+  .invest_styles  .slick-list{
+    display: flex;
+    align-items: center;
+  }
+  
+  .invest_styles  .checkbox-item .custom-checkbox {
+    width: 30px;
+    height: 20px;
+    border: 2px solid #002fa8;
+    border-radius: 4px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .invest_styles .checkbox-item .custom-checkbox {
+    width: 30px;
+    height: 20px;
+    border: 2px solid #002fa8;
+    border-radius: 4px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .invest_styles .checkbox-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  .invest_styles .checkbox-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  .invest_styles .list-items > .checkbox-item {
+    margin-bottom: 5px;
+  }
+  
+  .invest_styles .checkbox-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .invest_styles .checkbox-item input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .invest_styles .checkbox-item label {
+    margin: 0;
+  }
+  
+  .invest_styles .main_styles .flex_buttom_img:hover {
+    transform: translateY(-15px); /* Поднимаем кнопку на 5px при наведении */
+    transition: transform 0.5s ease;
+    -webkit-box-shadow: 27px 16px 9px -2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 27px 16px 9px -2px rgba(34, 60, 80, 0.2);
+  box-shadow: 27px 16px 9px -2px rgba(34, 60, 80, 0.2);
+  }
+
+
+  .invest_styles .fancy-link {
+    font-size: 18px;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    padding: 5px 10px;
+    transition: color 0.3s;
+    color: rgba(0, 47, 168, 1);
+  }
+  
+  .invest_styles .fancy-link:hover {
+    color: rgba(0, 47, 168, 1);
+  }
+  
+  .invest_styles  .fancy-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 95%;
+    height: 2px;
+    background-color: rgba(0, 47, 168, 1);
+    transform: scaleX(0);
+    transition: transform 0.3s;
+    transform-origin: left;
+  }
+  
+  .invest_styles .fancy-link:hover::after {
+    transform: scaleX(1);
+  }
+  .invest_styles .flex_links{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+  }
+  .invest_styles .flex_links a{
+    padding-left: 0;
+    font-size: 30px;
+    width: 600px;
+    cursor: pointer;
+  }
+  .invest_styles .flex_icons_link{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .icons{
+    background: #fff;
+    width: 70px;
+    height: 70px;
+    border: 2px solid rgba(0, 47, 168, 1);
+    margin-right: 40px;
+  }
+  .icons:hover{
+  background: #D3F2FF;
+  }
+  .icons img:first-child{
+    width: 68px;
+    cursor: pointer;
+  }
+
+
+  /* Икнока эффект */
+  .flip-horizontal {
+    transform: scaleX(-1);
+  }
+  
+  .mirror-image {
+    filter: flipH;
+  }
+
+  .icon-container {
+    transition: transform 0.8s ease; /* добавляем плавную анимацию */
+  }
+  
+  .icon-container:hover {
+    transform: rotateY(180deg); /* поворачиваем иконку на 180 градусов при наведении */
+  }
+  .icon-container img {
+    transition: transform 0.5s ease; /* Плавное изменение поворота */
+  }
+  
+  .icon-container img.flipped {
+    transform: rotateY(180deg); /* Поворот на 180 градусов */
+  }
+
+  /* Анимация ссылок */
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .link-animation {
+    animation: slideInFromLeft 1s ease-out forwards;
+  }
+  .flex_icons_link {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    /* opacity: 0;  */
+    transform: translateX(-100%); /* Сдвигаем элементы за пределы видимости */
+    transition: transform 1s ease-in-out; /* Уменьшаем время анимации */
+  }
+  
+  .animate-links {
+    opacity: 1; /* Когда класс animate-links добавляется, делаем блоки видимыми */
+    transform: translateX(0); /* Сдвигаем элементы обратно в исходное положение */
+  }
+  .flex{
+    display: flex;
+  }
+  .glob_flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  .glob_flex img {
+    width: 150px;
+    animation: rotateAnimation 1s linear infinite, fly-from-right 1s ease-out; /* Обратите внимание на измененный порядок анимаций */
+  }
+  
+  @keyframes rotateAnimation {
+    from {
+      -ms-transform-origin-x: rotate(180deg);
+    }
+    to {
+      -ms-transform-origin-x: rotate(0deg);
+    }
+  }
+  
+  @keyframes fly-from-right {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }

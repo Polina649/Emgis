@@ -1,0 +1,387 @@
+  .app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .expandable-list {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 20px;
+    width: 210px;
+  }
+  
+  .list-title {
+    padding: 10px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .list-title:hover {
+    background-color: #c0ecff;
+  }
+  
+  .list-items {
+    padding: 10px;
+    background-color: #fff;
+    transition: max-height 0.3s ease;
+    transform: 3px;
+  }
+
+  .list-items > .checkbox-item {
+    margin-bottom: 5px;
+  }
+  
+  .checkbox-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox-item input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .checkbox-item label {
+    margin: 0;
+  }
+  .flex_list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* Стили и анимация */
+  /* Добавим стилизацию для списка и анимацию для появления */
+  /* Добавляем анимацию при появлении */
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.sidebar {
+  background: #fff;
+  width: 250px;
+  padding: 20px 20px 20px 0;
+  border-right: 1px solid #ccc;
+  /* animation: slideIn 0.5s ease forwards; */
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* .sidebar {
+  animation: slideIn 0.5s ease forwards;
+} */
+
+.expandable-list {
+  margin-bottom: 1px;
+}
+
+.list-title {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.list-items {
+  padding-left: 20px;
+}
+
+.checkbox-item label {
+  cursor: pointer;
+}
+
+.checkbox-item input[type="checkbox"] {
+  display: none;
+}
+
+.checkbox-item label:before {
+  display: inline-block;
+   width: 16px;
+  height: 16px; 
+  margin-right: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #fff;
+}
+.checkbox-item input[type="checkbox"]:checked + label:before {
+  background-color: #007bff;
+  padding-left: 20px;
+
+}
+
+.checkbox-item input[type="checkbox"]:checked + label:after {
+  content: "\2714";
+  display: inline-block;
+  color: #002fa8;
+  border: 2px solid #002fa8;
+  border-radius: 14px;
+  /* padding-left: 20px; */
+
+}
+
+.expandable-list {
+  overflow: hidden;
+  transition: height 0.5s ease;
+  border: 1px solid #002fa8;
+}
+
+.list-title {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.list-items {
+  padding-left: 10px;
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.checkbox-item label {
+  margin-left: 5px;
+}
+
+.list-items.show {
+  max-height: 500px;
+}
+.title-content {
+  display: flex;
+  align-items: center;
+}
+
+.title-content span {
+  margin-right: 5px;
+  color: #002fa8;
+  width: 140px;
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 5px;
+  color: #002fa8;
+}
+
+.checkbox-item input[type="checkbox"] {
+  display: none;
+}
+
+.checkbox-item .custom-checkbox {
+    width: 30px;
+    height: 20px;
+    border: 2px solid #002fa8;
+    border-radius: 4px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox-item .custom-checkbox.checked {
+  background-color: #c0ecff;
+  border-color: #002fa8;
+}
+
+.checkbox-item .custom-checkbox.checked::before {
+  content: '\2714';
+  color: #002fa8;
+  font-size: 16px;
+}
+
+.checkbox-item label {
+  margin: 0;
+  font-size: 16px;
+}
+.title-content svg{
+  color: #002fa8;
+}
+/* Сайдбар */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0.1px;
+  /* width: 250px;
+  height: 70%; */
+  background: #333;
+  transition: left 3s ease; /* Добавляем плавный переход при открытии/закрытии */
+}
+.sidebar.open {
+  left: 0; /* Отображаем боковую панель при открытии */
+}
+
+.sidebar_2 {
+  position: fixed;
+  top: 0;
+  left: 352px;
+  height: 70%;
+  background: #333;
+  transition: left 0.8s ease; /* Добавляем плавный переход при открытии/закрытии */
+}
+
+.sidebar_2.open {
+  left: 0; /* Отображаем боковую панель при открытии */
+}
+
+/* .sidebar_2 {
+  animation: slideIn 0.5s ease forwards;
+} */
+
+.sidebar_2 {
+  background: #fff;
+  width: 250px;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+  /* animation: slideIn 0.5s ease forwards;  */
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
+
+.toggle-btn {
+  margin: 20px;
+  padding: 10px;
+  transform: translate(20px, -12px);
+  width: 40px;
+  height: 50px;
+  font-size: 20px;
+  color: #002fa8;
+  border: 1px solid #002fa8;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.toggle-btn:hover{
+  background-color: #D3F2FF;
+}
+
+.menu_tops{
+  display: flex;
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.checkbox-item input[type="checkbox"] {
+  width: 20px; /* Фиксированная ширина */
+  height: 20px; /* Фиксированная высота */
+  margin-right: 10px;
+}
+
+.checkbox-item label {
+  font-size: 14px;
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 0px;
+
+}
+
+.custom-checkbox {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.custom-checkbox.checked {
+  background-color: #007bff;
+}
+
+.icon {
+  margin-left: auto;
+  color: #007bff;
+}
+
+.popover {
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  top: calc(100% + 4px);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.popover button {
+  margin-top: 8px;
+}
+
+.contacts-table {
+  margin: 0 auto; /* Центрирование таблицы по горизонтали */
+  border-collapse: collapse; /* Сворачивание границ ячеек */
+}
+
+.contacts-table th,
+.contacts-table td {
+  padding: 8px; /* Отступ внутри ячеек */
+  border: 1px solid #002fa8; /* Границы ячеек */
+  text-align: center; /* Выравнивание содержимого по центру */
+  color: #002fa8;
+  font-weight: 400;
+}
+
+.contacts-table th {
+  background-color: #fff; /* Цвет фона заголовков */
+  color: #002fa8;
+  font-weight: 700;
+}
+
+.contacts-table tbody tr:nth-child(even) {
+  background-color: #fff; /* Цвет фона четных строк */
+}
+
+/* Animation styles */
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.sidebar.animation {
+  animation: slideIn 0.5s ease forwards;
+}
+
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+  .sidebar {
+    width: 200px; /* Adjust width for smaller screens */
+  }
+}
+
+/* Adjustments for larger screens */
+@media screen and (min-width: 1200px) {
+  .sidebar {
+    width: 300px; /* Adjust width for larger screens */
+  }
+}

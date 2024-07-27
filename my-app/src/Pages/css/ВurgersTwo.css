@@ -1,0 +1,115 @@
+.burger-menu {
+  position: relative;
+}
+
+.burger-menu button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.burger-menu .burger-icon {
+  width: 25px;
+  height: 3px;
+  background-color: #0166b3; /* Синий цвет */
+  margin: 5px 0;
+  transition: all 0.3s ease;
+}
+
+.burger-menu button.active .burger-icon:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+} 
+
+.burger-menu button.active .burger-icon:nth-child(2) {
+  opacity: 0;
+}
+
+.burger-menu button.active .burger-icon:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+} 
+
+.menu-items {
+  display: none;
+  position: absolute;
+  top: 100%;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-top: none;
+  z-index: 999;
+  flex-direction: column;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #002fa8;
+}
+
+.menu-items a {
+  display: flex;
+  padding: 10px 15px;
+  color: #002fa8;
+  text-decoration: none;
+  font-size: 14px;
+  align-items: center;
+}
+
+.menu-items a:hover {
+  background-color: #D3F2FF; /* Светло-серый цвет при наведении */
+}
+
+.active img{
+  height: 50px;
+  width: 50px;
+}
+
+.burger-button {
+display: block;
+color: #002fa8;
+}
+@media screen and (min-width: 1542px) and (max-width: 1760px) {
+.menu-items.show {
+    display: flex;
+    transform: translate(310px, 40px);
+}
+.burger-menu button {
+  transform: translate(1125%, 0px);
+}  
+}
+
+@media screen and (min-width: 1275px) and (max-width: 1542px){
+.burger-menu button {
+  transform: translate(700%, 0px);
+}
+.menu-items.show {
+  display: flex;
+  transform: translate(150px, 40px);
+}
+}
+
+@media screen and (min-width: 931px) and (max-width: 1275px){
+.burger-menu button {
+  transform: translate(300%, 0px);
+}
+.menu-items.show {
+  display: flex;
+  transform: translate(-10px, 40px);
+}
+}
+
+@media screen and (min-width: 300px) and (max-width: 931px){
+.home_styles .header {
+  flex: 0 1;
+  width: 60%;
+  z-index: 999;
+  display: flex;
+  height: 131px;
+  background-color: white;
+  min-width: 100%;
+  position: fixed;
+  flex-direction: column;
+  align-items: center;
+  transform: translate(0px, 0px);
+}
+.menu-items.show {
+  display: flex;
+  transform: translate(-120px, 40px);
+  }
+}

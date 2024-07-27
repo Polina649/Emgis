@@ -1,0 +1,12 @@
+.earth-canvas {
+    animation: fly-in 1.5s ease forwards;
+    transform: translateX(200px); /* начальное положение в правом углу */
+  }
+  @keyframes fly-in {
+    from {
+      transform: translateX(200px); /* начальное положение в правом углу */
+    }
+    to {
+      transform: translateX(0); /* положение в центре */
+    }
+  }

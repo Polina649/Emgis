@@ -1,0 +1,7 @@
+.home_styles .municipal_road_saidbar .block_infors:hover{
+    margin-top: -5px;
+    transition: margin-top 0.5s;
+    -webkit-box-shadow: -10px 12px 17px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: -10px 12px 17px -6px rgba(0,0,0,0.75);
+    box-shadow: -10px 12px 17px -6px rgba(0,0,0,0.75);
+}

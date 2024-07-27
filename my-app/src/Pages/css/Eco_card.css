@@ -1,0 +1,5 @@
+@media screen and (min-width: 200px) and (max-width: 1000px) {
+   .resident .main_styles .eco_card .header {
+        height: 100px;
+    }
+}

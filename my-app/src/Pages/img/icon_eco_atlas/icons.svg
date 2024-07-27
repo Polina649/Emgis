@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="210mm" height="297mm" version="1.1" viewBox="0 0 210 297" xmlns="http://www.w3.org/2000/svg">
+ <g stroke="#002fa8">
+  <g fill="#fff">
+   <path transform="matrix(7.8401 0 0 8.41 -53.461 -106.35)" d="m17.805 34.698-7.5306 0.13083-2.4515-7.1216 6.0155-4.5322 6.1693 4.3205z" stroke-width=".26458"/>
+   <ellipse cx="110.74" cy="58.549" rx="9.936" ry="10.668" stroke-width="2.3562"/>
+   <path d="m77.577 102.7 28.014-35.524" stroke-width="2.9657"/>
+   <path transform="matrix(7.3166 0 0 8.1862 60.443 -102.39)" d="m17.805 34.698-7.5306 0.13083-2.4515-7.1216 6.0155-4.5322 6.1693 4.3205z" stroke-width=".26458"/>
+   <path d="m118.37 66.605 21.944 38.185" stroke-width="2.7213"/>
+  </g>
+  <text transform="matrix(2.2625 .027043 -.021877 3.4255 -264.95 -414.16)" fill="#ffffff" font-family="Sans" font-size="12px" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;shape-inside:url(#rect8);white-space:pre" xml:space="preserve"><tspan x="132.4668" y="165.13937">CLn</tspan></text>
+  <text transform="matrix(2.4497 0 0 4.6684 24.344 -594.38)" fill="#ffffff" font-family="Sans" font-size="8px" font-weight="bold" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;shape-inside:url(#rect7);white-space:pre" xml:space="preserve"><tspan x="46.892578" y="160.16583">CLm</tspan></text>
+ </g>
+</svg>
